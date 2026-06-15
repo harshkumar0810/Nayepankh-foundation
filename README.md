@@ -2,14 +2,6 @@
 
 A **dark-themed, multi-page NGO website** built for **NayePankh Foundation** — a UP Govt. registered, 80G & 12A approved student-led NGO working across Uttar Pradesh since 2021.
 
-## Live Demo
-
-Deploy to Netlify (drag & drop this folder) or run locally:
-
-```bash
-npm start
-# Visit http://localhost:8080
-```
 
 ## Pages (6 Multi-Page Application)
 
@@ -43,21 +35,10 @@ npm start
 | **FormSubmit** | Contact page | Real email delivery to `contact@nayepankh.com` |
 | **Google Maps** | Contact page | Embedded office location map |
 | **WhatsApp** | All pages | Floating chat button → +91 8318500748 |
-| **Instagram** | Footer & Contact | @one_pankh social link |
+| **Instagram** | Footer & Contact | @nayepankh foundation social link |
 | **JSON-LD** | Home page | SEO structured data for NGO |
 | **Open Graph** | All pages | Social media preview meta tags |
 
-## Deploy
-
-### Netlify (Recommended)
-1. Go to [netlify.com](https://netlify.com) → "Add new site" → "Deploy manually"
-2. Drag the `nayepankh-foundation` folder
-3. Site goes live instantly
-
-### Vercel
-```bash
-npx vercel --prod
-```
 
 ### GitHub Pages
 Push to GitHub and enable Pages with source = root folder.
