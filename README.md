@@ -75,7 +75,7 @@ nayepankh-foundation/
 ├── netlify.toml        # Deploy config
 └── README.md           # Project documentation
 
-
+```
 NGO Details
 Name: NayePankh Foundation (नए पंख)
 
@@ -93,8 +93,9 @@ Phone: +91 8318500748
 
 Email: contact@nayepankh.com
 
-Author
-Harsh Kumar
+
+Author :-
+  Harsh Kumar
 
 GitHub: @harshkumar0810
 
