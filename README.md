@@ -3,7 +3,7 @@
 A modern, highly responsive, and premium dark-theme redesign of the NayePankh Foundation website. This project focuses on improving user experience (UX), maximizing donation conversion rates through strategic UI elements, and providing a seamless mobile-first experience.
 
 ### 🌐 Live Demo
-Check out the live website here: [https://harshkumar0810.github.io/Nayepankh-foundation/](https://harshkumar0810.github.io/Nayepankh-foundation/)
+[Check out the live website here :](https://harshkumar0810.github.io/Nayepankh-foundation/)
 
 ---
 
