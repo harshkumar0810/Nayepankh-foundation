@@ -1,4 +1,4 @@
-/* ===== NayePankh Foundation — Dark Theme ===== */
+
 :root {
   --bg-primary: #0a0a0a;
   --bg-secondary: #141414;
@@ -89,7 +89,6 @@ h1, h2, h3, h4 {
   max-width: 600px;
 }
 
-/* ===== Buttons ===== */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -143,7 +142,6 @@ h1, h2, h3, h4 {
   box-shadow: 0 4px 20px rgba(245, 166, 35, 0.3);
 }
 
-/* ===== Header ===== */
 .header {
   position: fixed;
   top: 0;
@@ -268,7 +266,6 @@ h1, h2, h3, h4 {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* ===== Hero ===== */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -355,7 +352,7 @@ h1, h2, h3, h4 {
   border: 2px solid var(--border);
 }
 
-/* ===== Stats Bar ===== */
+
 .stats-bar {
   background: var(--bg-secondary);
   border-top: 1px solid var(--border);
@@ -398,7 +395,7 @@ h1, h2, h3, h4 {
   margin-top: 0.25rem;
 }
 
-/* ===== Sections ===== */
+
 section {
   padding: 5rem 0;
 }
@@ -412,7 +409,7 @@ section {
   margin-inline: auto;
 }
 
-/* ===== Mission Quote Blocks ===== */
+
 .mission-quotes {
   display: flex;
   flex-direction: column;
@@ -477,7 +474,7 @@ section {
   color: var(--orange);
 }
 
-/* ===== Mission Cards ===== */
+
 .mission-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -539,7 +536,7 @@ section {
   font-size: 0.95rem;
 }
 
-/* ===== Programs ===== */
+
 .programs {
   background: var(--bg-secondary);
 }
@@ -607,7 +604,7 @@ section {
   border-radius: 50px;
 }
 
-/* ===== Gallery ===== */
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -636,11 +633,11 @@ section {
 
 .gallery-item.wide {
   grid-column: span 2;
-  grid-row: span 2;       /* Ye usko neeche wali row tak stretch karega */
-  aspect-ratio: unset;    /* Ye constraint hatayega taaki height perfectly fit ho */
+  grid-row: span 2;       
+  aspect-ratio: unset;    
 }
 
-/* ===== Testimonials ===== */
+
 .testimonials-slider {
   position: relative;
   max-width: 800px;
@@ -701,7 +698,7 @@ section {
   border-radius: 5px;
 }
 
-/* ===== Media Coverage ===== */
+
 .media-section {
   background: var(--bg-secondary);
 }
@@ -735,7 +732,7 @@ section {
   font-size: 0.9rem;
 }
 
-/* ===== Certificates ===== */
+
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -769,7 +766,7 @@ section {
   font-weight: 500;
 }
 
-/* ===== CTA Banner ===== */
+
 .cta-banner {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
   border-top: 1px solid var(--border);
@@ -801,7 +798,7 @@ section {
   position: relative;
 }
 
-/* ===== Footer ===== */
+
 .footer {
   background: var(--bg-secondary);
   border-top: 1px solid var(--border);
@@ -809,14 +806,10 @@ section {
   padding: 4rem 0 2rem;
 }
 
-/* .footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 3rem;
-  margin-bottom: 3rem; */
+
   .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.2fr 1.5fr; /* 5 columns perfectly fit karne ke liye */
+  grid-template-columns: 2fr 1fr 1fr 1.2fr 1.5fr; 
   gap: 2rem;
   margin-bottom: 3rem;
 }
@@ -907,7 +900,7 @@ section {
   font-size: 0.85rem;
 }
 
-/* ===== Page Hero ===== */
+
 .page-hero {
   background: var(--bg-secondary);
   border-bottom: 1px solid var(--border);
@@ -950,7 +943,7 @@ section {
   color: var(--text-muted);
 }
 
-/* ===== About Page ===== */
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1019,7 +1012,7 @@ section {
   width: 100%;
 }
 
-/* ===== Contact Page ===== */
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -1115,7 +1108,7 @@ section {
   gap: 1rem;
 }
 
-/* ===== Donate Page ===== */
+
 .donate-options {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1182,7 +1175,7 @@ section {
   color: var(--gold);
 }
 
-/* ===== Modal ===== */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -1250,7 +1243,7 @@ section {
   margin-left: 1.5rem;
 }
 
-/* ===== Animations ===== */
+
 .fade-up {
   opacity: 0;
   transform: translateY(30px);
@@ -1267,7 +1260,7 @@ section {
 .fade-up.delay-3 { transition-delay: 0.3s; }
 .fade-up.delay-4 { transition-delay: 0.4s; }
 
-/* ===== Toast ===== */
+
 .toast {
   position: fixed;
   bottom: 2rem;
@@ -1290,7 +1283,7 @@ section {
   opacity: 1;
 }
 
-/* ===== Lightbox ===== */
+
 .lightbox {
   position: fixed;
   inset: 0;
@@ -1318,7 +1311,7 @@ section {
   object-fit: contain;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 992px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -1376,8 +1369,8 @@ section {
 
   .gallery-item.wide {
     grid-column: span 1;
-    grid-row: span 1;      /* Mobile pe normal row */
-    aspect-ratio: 4/3;     /* Mobile pe wapas same size */
+    grid-row: span 1;      
+    aspect-ratio: 4/3;     
   }
 
 
@@ -1457,18 +1450,18 @@ section {
     justify-content: center;
   }
 
-  /* Stats Overflow Fix */
+  
   .stats-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 0.75rem; /* Gap chota kiya */
+    gap: 0.75rem; 
   }
   
   .stat-item {
-    padding: 1rem 0.5rem; /* Box ki andari padding kam ki */
+    padding: 1rem 0.5rem; 
   }
   
   .stat-item .counter {
-    font-size: 1.5rem !important; /* Important lagaya taaki HTML wala inline font-size override ho jaye */
+    font-size: 1.5rem !important; 
   }
   
   .stat-item .stat-label {
@@ -1480,7 +1473,7 @@ section {
   }
 }
 
-/* ===== Scroll Progress ===== */
+
 .scroll-progress {
   position: fixed;
   top: 0;
@@ -1492,7 +1485,7 @@ section {
   transition: width 0.1s linear;
 }
 
-/* ===== Language Toggle ===== */
+
 .lang-toggle {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1517,7 +1510,7 @@ section {
   gap: 0.75rem;
 }
 
-/* ===== WhatsApp Float ===== */
+
 .whatsapp-float {
   position: fixed;
   bottom: 5.5rem;
@@ -1542,7 +1535,7 @@ section {
   box-shadow: 0 6px 28px rgba(37, 211, 102, 0.5);
 }
 
-/* ===== Back to Top ===== */
+
 .back-to-top {
   position: fixed;
   bottom: 1.5rem;
@@ -1572,7 +1565,7 @@ section {
   border-color: var(--gold);
 }
 
-/* ===== Gallery Filters ===== */
+
 .gallery-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1634,7 +1627,7 @@ section {
   display: none;
 }
 
-/* ===== Impact Dashboard ===== */
+
 .impact-dashboard {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1682,7 +1675,7 @@ section {
   transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ===== Impact Calculator ===== */
+
 .impact-calculator {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1731,7 +1724,7 @@ section {
   margin-top: 0.25rem;
 }
 
-/* ===== Map Embed ===== */
+
 .map-embed {
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -1746,7 +1739,7 @@ section {
   border: 0;
 }
 
-/* ===== Social Feed ===== */
+
 .social-feed {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1784,7 +1777,7 @@ section {
   margin-bottom: 1rem;
 }
 
-/* ===== JSON-LD hidden ===== */
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1821,4 +1814,20 @@ section {
   }
 }
 
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px); 
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+              transform 1.2s cubic-bezier(0.16, 1, 0.3, 1); 
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-up.delay-1 { transition-delay: 0.1s; }
+.fade-up.delay-2 { transition-delay: 0.2s; }
+.fade-up.delay-3 { transition-delay: 0.3s; }
+.fade-up.delay-4 { transition-delay: 0.4s; }
 
