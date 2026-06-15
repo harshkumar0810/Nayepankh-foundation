@@ -32,18 +32,19 @@ The primary goal of this redesign was to transform the existing NGO website into
 ## 📂 File Structure
 
 ```text
-📄 index.html        - Main landing page (Hero, Stats, Programs, Gallery, Testimonials)
-📄 about.html        - About Us (Story, Values, Team)
-📄 programs.html     - Detailed NGO initiatives with interactive modals
-📄 gallery.html      - Filterable photo gallery and event highlights
-📄 donate.html       - Dedicated donation page with impact calculator
-📄 contact.html      - Contact form with embedded Google Map integration
-📄 terms.html        - Terms and Conditions
-📄 privacy.html      - Privacy Policy
-📄 cancellation.html - Cancellation and Refund Policy
-📄 css/styles.css    - Custom CSS architecture & animations
-📄 js/main.js        - Navigation logic, Observers, Modals, and Calculators
-📄 assets/           - NGO logos, community images, and certificates
+📁 Nayepankh-foundation
+├── 📄 index.html          # Main landing page (Hero, Stats, Programs, Gallery, Testimonials)
+├── 📄 about.html          # About Us detailed page (Story, Values, Team)
+├── 📄 programs.html       # Detailed NGO initiatives with interactive modals
+├── 📄 gallery.html        # Filterable photo gallery and certificates
+├── 📄 donate.html         # Dedicated donation page with impact calculator
+├── 📄 contact.html        # Contact information and embedded Google Map
+├── 📄 terms.html          # Terms and Conditions
+├── 📄 privacy.html        # Privacy Policy
+├── 📄 cancellation.html   # Cancellation and Refund Policy
+├── 📄 styles.css      # Custom CSS architecture, grid layouts, and smooth animations
+├── 📄 main.js         # Navigation logic, IntersectionObservers, and dynamic counters
+└── 📄 logo.png        # NGO Logo, hero images, and other visual assets
 
 ```
 
