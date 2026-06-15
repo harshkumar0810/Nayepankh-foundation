@@ -1,0 +1,12 @@
+{
+  "name": "nayepankh-foundation",
+  "version": "1.0.0",
+  "description": "NayePankh Foundation — Dark theme multi-page NGO website",
+  "scripts": {
+    "start": "npx serve . -p 8080",
+    "dev": "npx serve . -p 8080"
+  },
+  "keywords": ["ngo", "nayepankh", "charity", "nonprofit"],
+  "author": "NayePankh Foundation",
+  "license": "MIT"
+}
